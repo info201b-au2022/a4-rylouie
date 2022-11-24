@@ -1,7 +1,7 @@
 ---
-title: "Your A4 Report Title (TODO: Revise title)"
-author: "Your Name"
-date: '2022-11-01'
+title: "Incarceration and Inequalities Report"
+author: "Ryan Louie"
+date: '2022-11-23'
 output: html_document
 ---
 
@@ -10,8 +10,8 @@ source("../source/a4-helpers.R")
 source("../source/analysis.R")
 ```
 
-## Abstract 
-[TODO: Include a short abstract (about 50 words)]
+## Abstract
+This report looks at the Incarceration data ranging from 1970-2018 in the United States. Through this, issues of inequalities are explored as visuals and data are calculated to examine patterns that can help create an argument for more justice within the prison system, and regions across America, digging deeper into rooted issues that may cause higher numbers of incarcerations
 
 # Test (TODO: Remove before submission!!)
 ```{r echo=FALSE}
@@ -20,12 +20,12 @@ num <- 5
 ```
 As you know, this is a markdown report. The [R Markdown Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) is **useful!**
 
-* Here's a test of a dynamic variable. Say **"`r q1_string`!!!** 
+* Here's a test of a dynamic variable. Say **"`r q1_string`!!!**
 * Here's another test. A vector
 of numbers: `r test_query2(num)`.
 
-Recall that _{r echo=TRUE}_ can be used to display the code, 
-which is very useful when developing and debugging a report. Here's an example: 
+Recall that _{r echo=TRUE}_ can be used to display the code,
+which is very useful when developing and debugging a report. Here's an example:
 
 ```{r echo=TRUE}
 num <- 5
@@ -33,13 +33,48 @@ sum <- sum(test_query2(num))
 print(sum)
 ```
 
-## Introduction 
-[TODO]
+## Introduction
 
-## Data Summary 
-[TODO]
+One of the social issues that the data set looks into is the poverty divide, and how the majority of the crimes are both non-violent and stem from problems that are related to poverty. Vera Institute provides an example stating that “More than 80% of all arrests are for low-level, nonviolent offenses and conduct related to poverty.” This can be seen through counties with high rates, and communities that have been oppressed, and put in a situation that makes it hard to succeed. This is a cycle that will continue, and needs to be addressed.
 
-[TODO ... other sections ... See Canvas for details]
+In addition, politics can be a topic of debate as they talk about incarcerations. Immigration is a controversial topic, and there are many arrests in states such as Texas where this is an ongoing issue. This needs to be looked at more in depth, as there are many families being separated, deaths, and money spent through borders, but it is still an ongoing situation to sort out.
 
-_All the very best with your work!_
 
+### The direct stakeholders ###
+
+People in the prison system, as well as those in communities with poverty.
+
+### The indirect stakeholders ###
+
+Those working in the justice system, as well as the people running the jail because with change of the system and those incarcerated, the workers of the environment will also change. Another would be the families and people who know people that are incarcerated.
+
+Central values that are engaged consist of
+
+## justice and equality.
+
+The questions consist of:
+
+- How does poverty in the county affect the proportion of people incarcerated?
+
+- What is year with the most amount of incarcerations?
+
+- What are the most popular states with high ICE arrests in America?
+
+
+## Data Summary
+
+## Calculation 1
+In search of trying to answer the questions in my introduction,
+the first value that I calculated was the year with the most people in prison. This was in _2008_ with around _778200.8_ people incarcerated.
+
+This relates to inequality because there it opens more questions about why so many people were incarcerated that year, and if there was a rise of people arrested from discrimination or a key event. It can also stem from the financial crisis that happened in the middle of 2008, which opens more questions if financial struggle is what affected the increase in arrests.
+
+## Calculation 2
+Another question I answered was which state had the most ICE arrests. From background knowledge, I knew Texas had a high amount, and it was confirmed when I calculated that _Texas_ was where the most people incarcerated from ICE was contained. It was specifically _Harris County_ which had an ICE office nearby.
+
+This connects to inequalities because it reveals how regions and locations can affect people being arrested. This also presented the question about what other states had high populations of people in jail from ICE. Would states near borders have higher numbers? This is what I worked on in further sections.
+
+## Calculation 3
+I also calculated the urbanicity of the county with the highest amount of arrests. This was _LA, California_ which was an _urban_ county. There are a lot of people in LA, so it made sense that it would have the most arrests. I also wanted to know about other urbanicity types, and their proportion of total population and the amount of people in jail.
+
+This connects to inequality because it connects back to poverty, and how that can affect getting arrested. Rural states may have a higher rate of arrest because poverty is one of the factors that leads to the most arrests. This highlights an inequality in the wealth gap in America, with a continuous cycle in communities in poverty, usually underrepresented groups.
