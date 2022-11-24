@@ -1,18 +1,108 @@
-# Assignment 4: Incarceration
-In this assignment, you'll create the necessary files to perform the analysis described on Canvas (including `analysis.R`, `index.Rmd`, and by _knitting_ your document, an `index.html` file).
+---
+title: "Incarceration and Inequalities Report"
+author: "Ryan Louie"
+date: '2022-11-23'
+output: html_document
+---
 
-**Important**: Be sure to publish your site prior to the assignment due date, to test that your webserver is working correctly.
+```{r echo=FALSE, eval=TRUE, message=FALSE}
+source("../source/a4-helpers.R")
+source("../source/analysis.R")
+```
 
-###  Notes
-#### File organization
-* The `analysis.R` file and, if needed, other data analysis or visualization files should be placed in your `/source` directory.
-* The `index.Rmd` and, if needed, other `.Rmd` and `.HTML` files should go into the `/docs`
-* With this code organization, you should set your working directory to be in `/docs`
-* As you develop your report, you should publish it on your webserver to make sure it displays correctly
+## Abstract
+This report looks at the Incarceration data ranging from 1970-2018 in the United States. Through this, issues of inequalities are explored as visuals and data are calculated to examine patterns that can help create an argument for more justice within the prison system, and regions across America, digging deeper into rooted issues that may cause higher numbers of incarcerations
 
-#### Webserver set-up
-* Be sure to **change your repository settings** so that you can view the hosted website,  which will be available at:
-> https://ORGANIZATION_NAME.github.io/REPO_NAME
->
->where ORGANIZATION_NAME is your GitHub User ID and REPO_NAME is the name of the assignment (e.g., `a3-dghendry`)
-* Go to the "pages" page (via the "settings" tab) to configure your webserver to published your reports from the `/docs` directory
+## Introduction
+
+One of the social issues that the data set looks into is the poverty divide, and how the majority of the crimes are both non-violent and stem from problems that are related to poverty. Vera Institute provides an example stating that “More than 80% of all arrests are for low-level, nonviolent offenses and conduct related to poverty.” This can be seen through counties with high rates, and communities that have been oppressed, and put in a situation that makes it hard to succeed. This is a cycle that will continue, and needs to be addressed.
+
+In addition, politics can be a topic of debate as they talk about incarcerations. Immigration is a controversial topic, and there are many arrests in states such as Texas where this is an ongoing issue. This needs to be looked at more in depth, as there are many families being separated, deaths, and money spent through borders, but it is still an ongoing situation to sort out.
+
+
+### The direct stakeholders ###
+
+People in the prison system, as well as those in communities with poverty.
+
+### The indirect stakeholders ###
+
+Those working in the justice system, as well as the people running the jail because with change of the system and those incarcerated, the workers of the environment will also change. Another would be the families and people who know people that are incarcerated.
+
+Central values that are engaged consist of
+
+## justice and equality.
+
+The questions consist of:
+
+- How does poverty in the county affect the proportion of people incarcerated?
+
+- What is year with the most amount of incarcerations?
+
+- What are the most popular states with high ICE arrests in America?
+
+
+## Data Summary
+
+## Calculation 1
+In search of trying to answer the questions in my introduction,
+the first value that I calculated was the year with the most people in prison. This was in _2008_ with around _778200.8_ people incarcerated.
+
+This relates to inequality because there it opens more questions about why so many people were incarcerated that year, and if there was a rise of people arrested from discrimination or a key event. It can also stem from the financial crisis that happened in the middle of 2008, which opens more questions if financial struggle is what affected the increase in arrests.
+
+## Calculation 2
+Another question I answered was which state had the most ICE arrests. From background knowledge, I knew Texas had a high amount, and it was confirmed when I calculated that _Texas_ was where the most people incarcerated from ICE was contained. It was specifically _Harris County_ which had an ICE office nearby.
+
+This connects to inequalities because it reveals how regions and locations can affect people being arrested. This also presented the question about what other states had high populations of people in jail from ICE. Would states near borders have higher numbers? This is what I worked on in further sections.
+
+## Calculation 3
+I also calculated the urbanicity of the county with the highest amount of arrests. This was _LA, California_ which was an _urban_ county. There are a lot of people in LA, so it made sense that it would have the most arrests. I also wanted to know about other urbanicity types, and their proportion of total population and the amount of people in jail.
+
+This connects to inequality because it connects back to poverty, and how that can affect getting arrested. Rural states may have a higher rate of arrest because poverty is one of the factors that leads to the most arrests. This highlights an inequality in the wealth gap in America, with a continuous cycle in communities in poverty, usually underrepresented groups.
+
+## Section 3
+
+# Summary Paragraph:
+In this graph, it answers the question "what does the jail population each year in the US look like?
+The population of those in jail in the US are displayed.
+One of the key observations is that it is increasing, with numerous factors.
+There is an increase in population that will get more people arrested, but there
+are also instances of violence and hate that could come from racism that could result in arrests
+In addition, the wealth gap begins to increase, resulting in more poverty and an
+increase of crimes in those communities. This poverty can also be related to 
+inequalities because those communities could contain underrepresented groups of people.
+
+## Section 4
+
+## Summary Paragraph
+This graph answers the question "what is the jail population throughout each year
+in specific states?" Of the three, the key observation is that California has a 
+much higher jail population compared to Oregon and Washington. This is because it has
+a much higher general population as well. From 1978 to 1990, there is a big increase in the
+jail population in California. This may because they started getting stricter such as
+cracking down on drugs, and other crimes. Another key observation is that while Oregon 
+and Washington are gradual increases in jail population alongside their general population, 
+California fluctuates a lot in increasing and decreasing its jail population. 
+With a bigger population, the distribution can get a lot more extreme.
+
+## Section 5
+
+## Summary Paragraph
+This graph answers the question "How does poverty in the county affect the percentage of
+people incarcerated? Comparing rural areas to suburban areas, the overwhelming majority
+shows that there is a huge gap in the percentages with rural having highs above 10% after 
+2004. This graph also corresponds with the increase in jail populations graph as there is 
+an increase in percentages throughout the years up until 2018. In 2008, we see a 
+big spike in jail percentage in suburban counties. This could be because of the financial
+crisis that also affecte counties like the suburban areas, and causes panic.
+Overall, it shows that there may be inequality through the wealth gap as poverty 
+can lead to a more riskier quality of life, and crimes can be commited all around in necessity.
+
+## Section 6
+
+## Summary Pargraph 
+This map answers the question "What are the most popular states with high ICE arrests in America?"
+California, Texas, and Florida are all near the Mexican Border and have the most ICE arrests
+in the country. This shows that there is more of a inequality in Southern states for 
+people arrested from ICE as a result. There is an inequality in these states on how immigrants 
+are treated, and there is a lot of xenophobia as a result too. In recent years, these problems
+have become even more relevant.
