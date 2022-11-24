@@ -3,6 +3,14 @@ library(tidyverse)
 library(usmap)
 library(ggplot2)
 
+df <- read.csv("https://raw.githubusercontent.com/vera-institute/incarceration-trends/master/incarceration_trends.csv")
+View(df)
+get_data <- function(num_records=-1) {
+  fname <- read.csv("https://raw.githubusercontent.com/vera-institute/incarceration-trends/master/incarceration_trends.csv")
+  df <- read.csv(fname, nrows=num_records)
+  return(df)
+}
+
 # The functions might be useful for A4
 source("../source/a4-helpers.R")
 
