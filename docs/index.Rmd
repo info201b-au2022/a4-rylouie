@@ -13,26 +13,6 @@ source("../source/analysis.R")
 ## Abstract
 This report looks at the Incarceration data ranging from 1970-2018 in the United States. Through this, issues of inequalities are explored as visuals and data are calculated to examine patterns that can help create an argument for more justice within the prison system, and regions across America, digging deeper into rooted issues that may cause higher numbers of incarcerations
 
-# Test (TODO: Remove before submission!!)
-```{r echo=FALSE}
-q1_string <- test_query1()
-num <- 5
-```
-As you know, this is a markdown report. The [R Markdown Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) is **useful!**
-
-* Here's a test of a dynamic variable. Say **"`r q1_string`!!!**
-* Here's another test. A vector
-of numbers: `r test_query2(num)`.
-
-Recall that _{r echo=TRUE}_ can be used to display the code,
-which is very useful when developing and debugging a report. Here's an example:
-
-```{r echo=TRUE}
-num <- 5
-sum <- sum(test_query2(num))
-print(sum)
-```
-
 ## Introduction
 
 One of the social issues that the data set looks into is the poverty divide, and how the majority of the crimes are both non-violent and stem from problems that are related to poverty. Vera Institute provides an example stating that “More than 80% of all arrests are for low-level, nonviolent offenses and conduct related to poverty.” This can be seen through counties with high rates, and communities that have been oppressed, and put in a situation that makes it hard to succeed. This is a cycle that will continue, and needs to be addressed.
