@@ -78,3 +78,51 @@ This connects to inequalities because it reveals how regions and locations can a
 I also calculated the urbanicity of the county with the highest amount of arrests. This was _LA, California_ which was an _urban_ county. There are a lot of people in LA, so it made sense that it would have the most arrests. I also wanted to know about other urbanicity types, and their proportion of total population and the amount of people in jail.
 
 This connects to inequality because it connects back to poverty, and how that can affect getting arrested. Rural states may have a higher rate of arrest because poverty is one of the factors that leads to the most arrests. This highlights an inequality in the wealth gap in America, with a continuous cycle in communities in poverty, usually underrepresented groups.
+
+## Section 3
+
+# Summary Paragraph:
+In this graph, it answers the question "what does the jail population each year in the US look like?
+The population of those in jail in the US are displayed.
+One of the key observations is that it is increasing, with numerous factors.
+There is an increase in population that will get more people arrested, but there
+are also instances of violence and hate that could come from racism that could result in arrests
+In addition, the wealth gap begins to increase, resulting in more poverty and an
+increase of crimes in those communities. This poverty can also be related to 
+inequalities because those communities could contain underrepresented groups of people.
+
+## Section 4
+
+## Summary Paragraph
+This graph answers the question "what is the jail population throughout each year
+in specific states?" Of the three, the key observation is that California has a 
+much higher jail population compared to Oregon and Washington. This is because it has
+a much higher general population as well. From 1978 to 1990, there is a big increase in the
+jail population in California. This may because they started getting stricter such as
+cracking down on drugs, and other crimes. Another key observation is that while Oregon 
+and Washington are gradual increases in jail population alongside their general population, 
+California fluctuates a lot in increasing and decreasing its jail population. 
+With a bigger population, the distribution can get a lot more extreme.
+
+## Section 5
+
+## Summary Paragraph
+This graph answers the question "How does poverty in the county affect the percentage of
+people incarcerated? Comparing rural areas to suburban areas, the overwhelming majority
+shows that there is a huge gap in the percentages with rural having highs above 10% after 
+2004. This graph also corresponds with the increase in jail populations graph as there is 
+an increase in percentages throughout the years up until 2018. In 2008, we see a 
+big spike in jail percentage in suburban counties. This could be because of the financial
+crisis that also affecte counties like the suburban areas, and causes panic.
+Overall, it shows that there may be inequality through the wealth gap as poverty 
+can lead to a more riskier quality of life, and crimes can be commited all around in necessity.
+
+## Section 6
+
+## Summary Pargraph 
+This map answers the question "What are the most popular states with high ICE arrests in America?"
+California, Texas, and Florida are all near the Mexican Border and have the most ICE arrests
+in the country. This shows that there is more of a inequality in Southern states for 
+people arrested from ICE as a result. There is an inequality in these states on how immigrants 
+#are treated, and there is a lot of xenophobia as a result too. In recent years, these problems
+have become even more relevant.
